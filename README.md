@@ -42,7 +42,7 @@ You can set up each new project by using two enviroment variables:
 For settings this up on heroku for a given "MP" project key, you would do:
 
     heroku config:set MP:JIRA_DOMAIN=mycompany.atlassian.net
-    heroku config:set MP:JIRA_DOMAIN=https://mycompany.slack.com/services/hooks/incoming-webhook?token=zAHRtMv6BN2EDFx2nx4ZhMYr
+    heroku config:set MP:SLACK_URL=https://mycompany.slack.com/services/hooks/incoming-webhook?token=zAHRtMv6BN2EDFx2nx4ZhMYr
 
 For new projects just repeat the steps above. Note the JIRA_DOMAIN can point to custom Jira instalations too, not just OnDemand ones.
 
